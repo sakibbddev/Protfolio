@@ -9,7 +9,7 @@ const Services = () => {
           <div className="card-body">
             <h3 className="card-title">
               Services I Offered
-              <Link className="link-btn" to="services.html">
+              <Link className="link-btn" to="/services">
                 {" "}
                 See All Services
                 <svg
