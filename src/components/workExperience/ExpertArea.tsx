@@ -2,7 +2,7 @@ import { ExpertTech } from "../../content/ExpertTech";
 
 const ExpertArea = () => {
   return (
-    <div className="card expertise-card">
+    <div className="card expertise-card mt-3">
       <div className="card-body">
         <h3 className="card-title">My Expert Area</h3>
         <div className="expertise-main mt-24">
