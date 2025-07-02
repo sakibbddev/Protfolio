@@ -2,7 +2,7 @@ import { FaGithub, FaHackerrank, FaLinkedin } from "react-icons/fa";
 
 export const ProfileInfo = {
   profileName: "Shahadot Hossain Sakib",
-  photo: "/public/images/sakibbdcse.png",
+  photo: "/images/sakibbdcse.png",
   designation: "Full Stack Developer",
   country: "Bangladesh",
   experience: "5 years",

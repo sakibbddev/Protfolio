@@ -3,6 +3,7 @@ export const HederContent = {
   fName: "Mr.",
   lName: "Sakib",
   chat: { title: "Let's Talk", link: "https://wa.me/8801766195363" },
+  description: "🚀Let's collaborate and build something amazing together! ",
   designation: "Web Developer",
   menu: [
     {
