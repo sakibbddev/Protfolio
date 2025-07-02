@@ -1,6 +1,7 @@
 import { Title } from "react-head";
 import Profile from "./Profile";
 import Experience from "./Experience";
+import RecentProjects from "./RecentProjects";
 const Home = () => {
   return (
     <>
@@ -10,114 +11,7 @@ const Home = () => {
           <div className="row g-4">
             <Profile />
             <Experience />
-            <div className="col-xl-4">
-              <div className="card card-projects">
-                <div className="card-body">
-                  <h3 className="card-title">
-                    Recent Projects{" "}
-                    <a className="link-btn" href="portfolio.html">
-                      All Projects
-                      <svg
-                        className="icon"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M4.16699 10H15.8337"
-                          stroke="#4770FF"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M10.833 15L15.833 10"
-                          stroke="#4770FF"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M10.833 5L15.833 10"
-                          stroke="#4770FF"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </a>
-                  </h3>
-                  <div className="projects-main mt-24">
-                    <div className="row g-4 parent-container">
-                      <div className="col-lg-12">
-                        <div className="project-item">
-                          <div className="image">
-                            <img
-                              src=""
-                              alt="project-1"
-                              className="img-fluid w-100"
-                            />
-                            <a
-                              href="assets/img/projects/project-1.png"
-                              className="gallery-popup full-image-preview parent-container"
-                            >
-                              <svg
-                                className="icon"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="1.5"
-                              >
-                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
-                              </svg>
-                            </a>
-                            <div className="info">
-                              <span className="category">Product Design</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="project-item">
-                          <div className="image">
-                            <img
-                              src="assets/img/projects/project-2.png"
-                              alt="project-2"
-                              className="img-fluid w-100"
-                            />
-                            <a
-                              href="assets/img/projects/project-2.png"
-                              className="gallery-popup full-image-preview parent-container"
-                            >
-                              <svg
-                                className="icon"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="1.5"
-                              >
-                                <path d="M10 4.167v11.666M4.167 10h11.666"></path>
-                              </svg>
-                            </a>
-                            <div className="info">
-                              <span className="category">Product Design</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <RecentProjects />
           </div>
           <div className="services-area mt-24">
             <div className="row g-4">
