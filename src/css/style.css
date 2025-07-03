@@ -814,7 +814,7 @@ p {
 }
 
 .content-box-card .top-info .main-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   color: var(--black);
   line-height: 0.9em;
@@ -826,14 +826,14 @@ p {
 }
 
 .content-box-card .top-info p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--light-black);
   line-height: 1.333em;
 }
 
 .content-box-card .top-info p b {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--black);
 }
