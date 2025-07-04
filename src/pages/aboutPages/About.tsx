@@ -1,10 +1,10 @@
 import { ProfileInfo } from "../../content/ProfileInfo";
-import { Reviews, WorkedBrand } from "../../content/WorkedBrand";
 import Profile from "../homePages/Profile";
-import { FaStar } from "react-icons/fa";
-import Award from "./Award";
+import Award from "../../components/common/Award";
 import { Link } from "react-router-dom";
 import { HederContent } from "../../content/HederContent";
+import WorkingBrand from "../../components/common/WorkingBrand";
+import Review from "../../components/common/Review";
 
 const About = () => {
   return (
@@ -89,46 +89,8 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="working-with-area">
-                    <h2 className="main-common-title">
-                      Worked With {WorkedBrand.length}+ Brands ✨ Worldwide
-                    </h2>
-                    <div className="working-with-main">
-                      {WorkedBrand.map((data, index) => (
-                        <div key={index} className="items">
-                          <img src={data.logo} alt={data.name} />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="client-feedback">
-                    <h2 className="main-common-title">
-                      Trusted By 20+ Clients
-                    </h2>
-                    <div className="row client-feedback-slider">
-                      {Reviews.map((data, index) => (
-                        <div key={index} className="col-lg-6 g-1">
-                          <div className="feedback-item">
-                            <div className="feedback-top-info">
-                              <div className="rating">
-                                {Array.from({ length: data.rating }, (_, i) => (
-                                  <FaStar key={i} color="#ffa20c" />
-                                ))}
-                              </div>
-                            </div>
-                            <div className="details">
-                              <p>{data.comment}</p>
-                            </div>
-                            <div className="designation">
-                              <p>
-                                <span>Company</span> - {data.company}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  <WorkingBrand />
+                  <Review />
                   <Award />
                   <div className="work-together-slider">
                     <div className="slider-main d-flex gap-4 align-items-center">

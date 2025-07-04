@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ServiceCard from "./ServiceCard";
+import { ServicesContent } from "../../content/ServicesContent";
 
 const Services = () => {
   return (
@@ -46,7 +47,7 @@ const Services = () => {
             </h3>
             <div className="services-main mt-24">
               <div className="row g-4">
-                <ServiceCard />
+                <ServiceCard servicesContent={ServicesContent.slice(0, 4)} />
               </div>
             </div>
           </div>
