@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Award from "../../components/common/Award";
 import Faq from "../../components/common/Faq";
 import Review from "../../components/common/Review";
@@ -7,7 +6,7 @@ import { FaqContent } from "../../content/FaqContent";
 import { ServicesContent } from "../../content/ServicesContent";
 import Profile from "../homePages/Profile";
 import ServiceCard from "../homePages/ServiceCard";
-import { HederContent } from "../../content/HederContent";
+import WorkTogetherSlide from "../../components/common/WorkTogetherSlide";
 
 const Service = () => {
   return (
@@ -45,26 +44,7 @@ const Service = () => {
                   <Review />
                   <Award />
                   <Faq faq={FaqContent.serviceFaq} />
-                  <div className="work-together-slider">
-                    <div className="slider-main d-flex gap-4 align-items-center">
-                      <div className="slider-item">
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                      </div>
-                      <div className="slider-item">
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  <WorkTogetherSlide />
                 </div>
               </div>
             </div>

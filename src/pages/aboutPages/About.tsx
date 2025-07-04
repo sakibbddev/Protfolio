@@ -1,10 +1,9 @@
 import { ProfileInfo } from "../../content/ProfileInfo";
 import Profile from "../homePages/Profile";
 import Award from "../../components/common/Award";
-import { Link } from "react-router-dom";
-import { HederContent } from "../../content/HederContent";
 import WorkingBrand from "../../components/common/WorkingBrand";
 import Review from "../../components/common/Review";
+import WorkTogetherSlide from "../../components/common/WorkTogetherSlide";
 
 const About = () => {
   return (
@@ -92,26 +91,7 @@ const About = () => {
                   <WorkingBrand />
                   <Review />
                   <Award />
-                  <div className="work-together-slider">
-                    <div className="slider-main d-flex gap-4 align-items-center">
-                      <div className="slider-item">
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                      </div>
-                      <div className="slider-item">
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                        <Link to={HederContent.chat.link}>
-                          Let's 👋 Work Together
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  <WorkTogetherSlide />
                 </div>
               </div>
             </div>
