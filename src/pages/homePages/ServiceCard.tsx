@@ -1,9 +1,16 @@
-import { ServicesContent } from "../../content/ServicesContent";
+type ServiceItem = {
+  icon: string;
+  title: string;
+};
 
-const ServiceCard = () => {
+type Props = {
+  servicesContent: ServiceItem[];
+};
+
+const ServiceCard = ({ servicesContent }: Props) => {
   return (
     <>
-      {ServicesContent.map((data, index) => (
+      {servicesContent.map((data, index) => (
         <div key={index} className="col-md-3 col-sm-6 col-6">
           <div className="services-item text-center">
             <div className="image">
