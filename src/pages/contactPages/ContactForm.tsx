@@ -1,7 +1,6 @@
 const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submission logic here
     console.log("Form submitted");
   };
 
@@ -32,7 +31,7 @@ const ContactForm = () => {
                 </label>
                 <input
                   id="email"
-                  name="email" // Fixed typo from nameName="email"
+                  name="email"
                   required
                   type="email"
                   className="form-control shadow-none"
@@ -70,10 +69,10 @@ const ContactForm = () => {
                   <option value="" disabled>
                     Select budget...
                   </option>
-                  <option value="$5000">$5000</option>
-                  <option value="$5000 - $10000">$5000 - $10000</option>
-                  <option value="$10000 - $20000">$10000 - $20000</option>
-                  <option value="$20000+">$20000+</option>
+                  <option value="$5000">$100</option>
+                  <option value="$5000 - $10000">$100 - $2000</option>
+                  <option value="$10000 - $20000">$500 - $1000</option>
+                  <option value="$20000+">$2000+</option>
                 </select>
               </div>
             </div>
@@ -106,7 +105,7 @@ const ContactForm = () => {
                   <path
                     d="M17.5 11.6665V6.6665H12.5"
                     stroke="white"
-                    strokeWidth="1.5" // React uses camelCase
+                    strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
