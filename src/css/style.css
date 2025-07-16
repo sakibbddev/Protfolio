@@ -450,7 +450,7 @@ p {
 }
 
 .common-button-groups .btn:hover {
-  background-color: #2563eb;
+  background-color: var(--secondary);
 }
 
 .common-button-groups .btn .icon {
@@ -2036,7 +2036,7 @@ p {
 }
 
 .leave-comments-area .comments-box .submit-btn:hover {
-  background-color: #2563eb;
+  background-color: var(--secondary);
 }
 
 .leave-comments-area .comments-box .submit-btn .icon {

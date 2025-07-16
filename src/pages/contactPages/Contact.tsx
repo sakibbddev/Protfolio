@@ -30,9 +30,6 @@ const Contact = () => {
                     <ContactForm />
                     <Map />
                     <div className="frequently-asked-questions">
-                      <h2 className="main-common-title">
-                        Frequently Asked Questions
-                      </h2>
                       <div className="frequently-asked-questions-main">
                         <div className="accordion" id="accordionExample">
                           <Faq faq={FaqContent.serviceFaq} />
