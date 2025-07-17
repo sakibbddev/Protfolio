@@ -23,21 +23,21 @@ const Services = () => {
                 >
                   <path
                     d="M4.16699 10H15.8337"
-                    stroke="#4770FF"
+                    stroke="#05af2b"
                     stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                   <path
                     d="M10.833 15L15.833 10"
-                    stroke="#4770FF"
+                    stroke="#05af2b"
                     stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
                   <path
                     d="M10.833 5L15.833 10"
-                    stroke="#4770FF"
+                    stroke="#05af2b"
                     stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
