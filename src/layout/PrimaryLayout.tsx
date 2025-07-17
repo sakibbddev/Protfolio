@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/common/navbar/Navbar";
 import Footer from "../components/common/footer/Footer";
+import BgShapes from "../components/common/BgShapes";
 
 const PrimaryLayout = () => {
   return (
@@ -8,6 +9,7 @@ const PrimaryLayout = () => {
       <Navbar />
       <main>
         <Outlet />
+        <BgShapes />
       </main>
       <Footer />
     </>
